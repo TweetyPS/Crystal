@@ -146,18 +146,16 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 ${ORANGE}
-${ORANGE}┏━━━┓╋╋╋╋╋╋╋╋┏┓╋╋╋┏┓
-${ORANGE}┃┏━┓┃╋╋╋╋╋╋╋┏┛┗┓╋╋┃┃
-${ORANGE}┃┃╋┗╋━┳┓╋┏┳━┻┓┏╋━━┫┃
-${ORANGE}┃┃╋┏┫┏┫┃╋┃┃━━┫┃┃┏┓┃┃
-${ORANGE}┃┗━┛┃┃┃┗━┛┣━━┃┗┫┏┓┃┗┓
-${ORANGE}┗━━━┻┛┗━┓┏┻━━┻━┻┛┗┻━┛
-${ORANGE}╋╋╋╋╋╋┏━┛┃       ${RED}Version : 2.1
-${ORANGE}╋╋╋╋╋╋┗━━┛       
-${ORANGE}
-${ORANGE}		  		      
+${ORANGE}  ╔═══╗────────╔╗───╔╗
+${ORANGE}  ║╔═╗║───────╔╝╚╗──║║
+${ORANGE}  ║║─╚╬═╦╗─╔╦═╩╗╔╬══╣║
+${ORANGE}  ║║─╔╣╔╣║─║║══╣║║╔╗║║
+${ORANGE}  ║╚═╝║║║╚═╝╠══║╚╣╔╗║╚╗
+${ORANGE}  ╚═══╩╝╚═╗╔╩══╩═╩╝╚╩═╝
+${ORANGE}  ──────╔═╝║  ${RED}Version : 2.1
+${ORANGE}  ──────╚══╝       		  		      
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by Crystal (ghadanfar.0)${WHITE}
 	EOF
 }
 
